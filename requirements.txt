@@ -1,3 +1,0 @@
-pillow==10.3.0
-qrcode-artistic==3.0.2
-segno==1.6.1

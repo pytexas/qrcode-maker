@@ -6,14 +6,15 @@ libraries.
 
 ## Usage
 
-1. `pip` install the `segno` and `qrcode-artistic` libraries, either manually or 
-using the provided requirements file
+Requires [uv](https://docs.astral.sh/uv/).
+
 1. Update the `target_link` variable with the link you want the QR Code to point to
 1. Update the `background_image` variable with the image you want to be embedded in
 the QR Code
 1. Update the `output_file` variable with what you want the QR Code to be named
-1. Run the file with `python qrcode-maker.py`. The resulting QR Code should 
-appear in the same directory as the source code.
+1. Run the file with `uv run qrcode-maker.py`. Dependencies are resolved 
+automatically via inline metadata. The resulting QR Code should appear in the same
+directory as the source code.
 
 
 ## Notes
