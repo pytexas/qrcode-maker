@@ -13,7 +13,7 @@
 
 import segno
 
-target_link = "https://bit.ly/pytexas2024"
+target_link = "https://pytexas.org/"
 background_image = "./logo.png"
 output_file = "pytexas.png"
 
